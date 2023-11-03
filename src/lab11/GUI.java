@@ -33,13 +33,13 @@ public class GUI implements ActionListener{
 		addVerse = new JButton("Add Verse");
 		addRoot = new JButton("Add new root");
 		c1.setBounds(0, 0, 200, 720);
-
+		frame.setVisible(true);
 	
 
 	}
 
 	public static void main(String[] args) {
-
+		GUI g = new GUI();
 	}
 
 	@Override
